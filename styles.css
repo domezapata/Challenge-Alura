@@ -1,0 +1,351 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+}
+.container {
+    
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    padding: 5px;
+    background: #f3f5fc;
+    top:622px;
+    left: -2277px;
+}
+.logo {
+    width: 100%;
+    float: left;
+   
+    
+}
+.left {
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    
+}
+.right {
+    float: right;
+    width: 350px;
+    height: 650px;
+    border-radius: 24px;
+    background: white;
+    box-shadow:0px 24px 32px -8px rgba(0,0,0,0.08);
+    margin-bottom: 2%;
+    
+
+}
+.left-button {
+    align-items: flex-start;
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius:24px;
+    margin-top: 10%;
+    
+  
+}
+.logo-img{
+    margin-top: 1%;
+    float: inherit;
+    margin-left:  5%;
+
+}
+.title {
+    float:inherit;
+    margin-left: 20%;
+}
+.text-input {
+    float:left;
+    margin-left:10%;
+    margin-top: auto;
+    width: 80%;
+    height: 80%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0a3871;
+    
+}
+.text-input::placeholder{
+    color:#0A3871;
+    right: 10%;
+    text-indent:1.8em;
+    margin-top: auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+.terminos p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color:#495057;
+    opacity: 0.8;
+    flex:none;
+    order:1;
+    flex-grow: 0;
+    text-indent:11em;
+    
+}
+#img-muneco{
+    
+    margin:10%;
+    width: 90%;
+    height: auto;
+
+}
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+}
+#texto2{
+    float:left;
+    margin-left: 15%;
+    color:#0A3871;
+    width: 70%;
+    height: 20%;
+    left:12%;
+    border:none;
+    outline: none;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    
+    
+}
+#btn-encriptar{
+    padding: 15px 32px;
+    width: 280px;
+    height: 19px;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    gap:8px;
+    justify-content: center;
+    min-height: 60px;
+    
+    
+}
+#btn-desencriptar{
+    padding: 15px 32px;
+    width: 280px;
+    height: 19px;
+    border-radius: 24px;
+    margin-left: 5%;
+    background: #d8dfe8;
+    align-items: flex-start;
+    border: 1px solid #0A3871;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    color: #0A3871;
+    justify-content: center;
+    min-height: 60px;
+    
+    
+
+}
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #d8dfe8;
+    border-radius: 24px;
+    display:none;
+}
+
+@media (max-width: 57.5em) {
+    .container{
+      
+       width: 500px;
+       height: 700px;
+       margin: auto;
+       width: 90vw;
+       height: 10vh;
+       padding: 5px;
+      
+      top:622px;
+      left: -2277px;
+    }
+    .left {
+        width: 100%;
+
+    }
+    #texto {
+        width: 90%;
+        height: 15%;
+        left:20%;
+        top: 10%;
+        font-size: 14px;
+        text-align: center;
+    }
+    #texto2{
+        float:left;
+        margin-left: 15%;
+        color:#0A3871;
+        width: 70%;
+        height: 10%;
+        left:12%;
+        border:none;
+        outline: none;
+        text-align: center;
+        font-family: "Inter";
+        font-size: 12px; 
+    } 
+    #img-muneco{
+    
+        margin:3%;
+        width: 100%;
+        height: 50%;
+    
+    }
+    .left-button {
+        width: 80%;
+        left:100%;
+        top:10%;
+    }
+    .right{
+        left: 50%;
+        margin-bottom: 10%;
+        float: right;
+        right: 400px;
+        width: 220px;
+        height: 500px;
+    }
+    .text-input::placeholder {
+        float:left;
+        margin-left:10%;
+        margin-top: auto;
+        width: 50%;
+        height: 50%;
+        font-size: 16px;
+    }
+    .text-input {
+        float:left;
+        margin-left:10%;
+        margin-top: auto;
+        width: 50%;
+        height: 50%;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background: #F3F5FC;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        color: #0a3871;
+    }
+    .title {
+        float:inherit;
+        margin-left: 15%;
+       
+        font-size: 18px;
+    }
+    .left-button {
+        align-items: flex-start;
+        float: left;
+        width: 80%;
+        height: auto;
+        border-radius:24px;
+        margin-top: -24%;
+        margin-left: -5%;
+        
+        
+      
+    }
+    #btn-encriptar{
+        padding: 15px 32px;
+        width: 200px;
+        height: 19px;
+        border-radius: 24px;
+        margin-left: 15%;
+        background: #0A3871;
+        align-items: center;
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        gap:1px;
+        justify-content: center;
+        min-height: 60px;
+        
+        
+    }
+    #btn-desencriptar{
+       
+        width: 200px;
+        height: 19px;
+        border-radius: 24px;
+        margin-left: 1%;
+        background: #d8dfe8;
+        align-items: flex-start;
+        border: 1px solid #0A3871;
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 5px;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+        color: #0A3871;
+        justify-content: center;
+        min-height: 60px;
+        
+        
+    
+    }
+    #copiar {
+        margin-left: 33%;
+        margin-top: 90%;
+        padding: 24px;
+        width: 30%;
+        height: 70%;
+        background: #d8dfe8;
+        border-radius: 18px;
+        display:none;
+    }
+    
+    
+}
